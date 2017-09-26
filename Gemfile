@@ -22,6 +22,7 @@ group :production do
  gem 'bcrypt'
  gem 'devise'
  gem 'figaro'
+ gem 'faker'
 
 
  group :development, :test do
