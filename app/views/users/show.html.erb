@@ -1,7 +1,7 @@
-<h2>Your To-Do List</h2>
+<div class="container notebook">
 
 <% if current_user %>
-    <div class="col-md-8">
+    <div class="col-md-8 list">
         <%= render 'items/item', locals: { user: @user, items: @items } %>
         </div>
         <div class='new-item'>
@@ -9,3 +9,4 @@
         </div>
     </div>
 <% end %>
+</div>
