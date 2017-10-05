@@ -2,9 +2,9 @@
 
 Blocitoff is a self destructing ToDo list application. Users can create and delete todo list items, view other user profiles. Items automatically delete after seven days via Rake automation.
 
-The app is deployed on Heroku:
+The app is deployed on Heroku: https://tranquil-spire-92342.herokuapp.com
 
-The source code is here on GitHub:
+The source code is here on GitHub: https://github.com/summerlove91/blocitoff
 
 This app was created as part of the [Bloc](www.bloc.io) Full Stack Web Development course.
 
