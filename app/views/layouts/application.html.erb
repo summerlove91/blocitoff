@@ -12,18 +12,18 @@
 
   <body>
     <div class="container">
-     <ul class="nav nav-tabs">
-      <li><%= image_tag "checkmark.png", style: 'height: 42px; width:42px', class: 'css_class'%></li>
-      <li><%= link_to "Blocifoff", root_path, style: 'color:orange; font-weight: bold; font-size: 20px; font-family: "Nosifer", cursive;', class: 'css_class' %></li>
-      <li><%= link_to "My Todos", users_show_path, style: 'color:orange', class: 'css_class' %></li>
-     <div class="pull-right user-options" style="margin-top: 10px">
+     <ul class="nav nav-tabs" >
+      <li><%= image_tag "checkmark3.png", style: 'height: 42px; width:42px; margin-top: 10px', class: 'css_class'%></li>
+      <li><%= link_to "Blocifoff", root_path, style: 'color:coral; font-weight: bold; font-size: 30px; font-family: "Nosifer", cursive;', class: 'css_class' %></li>
+      <li><%= link_to "my todos", users_show_path, style: 'color:coral; font-size: 20px', class: 'css_class' %></li>
+     <div class="pull-right user-options" style="margin-top: 10px; font-size:20px">
        <% if user_signed_in? %>
           Logged in as <strong><%= current_user.email %></strong>.
-          <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' , style: 'color:orange', class: 'css_class'%> |
-          <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  , style: 'color:orange', class: 'css_class'%>
+          <%= link_to 'edit profile', edit_user_registration_path, :class => 'navbar-link' , style: 'color:coral; font-size: 20px;', class: 'css_class'%> |
+          <%= link_to "logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  , style: 'color:coral; font-size: 20pxs', class: 'css_class'%>
        <% else %>
-          <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
-          <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+          <%= link_to "sign up", new_user_registration_path, :class => 'navbar-link'  %> |
+          <%= link_to "login", new_user_session_path, :class => 'navbar-link'  %>
        <% end %>
      </div>
     </ul>

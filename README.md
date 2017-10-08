@@ -1,3 +1,5 @@
+![alt text](app/assets/images/screenshot.png)
+
 # Blocitoff
 
 Blocitoff is a self destructing ToDo list application. Users can create and delete todo list items, view other user profiles. Items automatically delete after seven days via Rake automation.

@@ -6,7 +6,30 @@
   background: asset-url('blocitoff.png') no-repeat center;
   height: 600px;
   width: 80%;
-  color: orange;
+  color: coral;
   background-size: cover;
   // text-align: center;
+}
+
+.main-about {
+  margin-bottom: 5px;
+  height: 350px;
+  background-color: coral;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.about-1 {
+  text-align: center;
+  color:white;
+  font-weight:bold;
+  font-size: 40px;
+  font-family: "Nosifer", cursive;
+  margin-top: 30px;
+}
+
+.about-2 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
 }
