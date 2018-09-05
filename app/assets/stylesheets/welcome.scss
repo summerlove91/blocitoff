@@ -2,34 +2,40 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.main-body {
-  background: asset-url('blocitoff.png') no-repeat center;
-  height: 600px;
-  width: 80%;
-  color: coral;
-  background-size: cover;
-  // text-align: center;
+.background-design{
+  background-color: orange;
+  height: 800px;
+  transform: rotate(48deg);
+  z-index: -1;
+  transform-origin: 70% 60%;
+  right:-400px;
+  position: relative;
+  bottom: 100px;
+  top: -760px;
 }
 
-.main-about {
-  margin-bottom: 5px;
-  height: 350px;
-  background-color: coral;
-  width: 100%;
-  border-radius: 5px;
+.background-design-2 {
+  background-color: orange;
+  height: 800px;
+  transform: rotate(48deg);
+  z-index: -2;
+  transform-origin: 70% 60%;
+  right:-400px;
+  position: relative;
+  opacity: 0.5;
+  bottom: 50px;
 }
 
-.about-1 {
-  text-align: center;
-  color:white;
-  font-weight:bold;
-  font-size: 40px;
-  font-family: "Nosifer", cursive;
-  margin-top: 30px;
+.main-page-body-text-1{
+  font-size: 50px;
+  margin-top: 120px;
 }
 
-.about-2 {
-  text-align: center;
-  color: white;
+.main-page-body-text-2{
   font-size: 20px;
+  margin-top: 20px;
+}
+
+.main-page-body-text-bold{
+  font-weight: bold;
 }

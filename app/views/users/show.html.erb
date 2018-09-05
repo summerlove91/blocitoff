@@ -1,12 +1,13 @@
-<div class="container notebook">
-
-<% if current_user %>
-    <div class="col-md-8 list">
-        <%= render 'items/item', locals: { user: @user, items: @items } %>
+<div class="container user-task-box">
+  <div class="task-box">
+    <% if current_user %>
+        <div class="task-list">
+          <%= render 'items/item', locals: { user: @user, items: @items } %>
         </div>
         <div class='new-item'>
-            <%= render "items/form", locals: { user: @user, item: @item } %>
+          <%= render "items/form", locals: { user: @user, item: @item } %>
         </div>
-    </div>
-<% end %>
+    <% end %>
+  </div>
+
 </div>

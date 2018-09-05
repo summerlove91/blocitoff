@@ -1,7 +1,6 @@
 <%= form_for @item, remote: true do |f| %>
-
-    <%= f.text_field :name, class: 'form-control', placeholder: "Enter new to-do list item" %>
-    <div class="form-group", style="padding-top:10px;">
-        <%= f.submit "Save", class: 'btn btn-success' %>
-    </div>
+    <%= f.text_field :name, class: 'form-control input-field', placeholder: "Enter new task", style: 'width: 45vw; display:inline-block' %>
+    <span class="form-group", style="padding-top:10px; display:inline-block; height: 7vh">
+        <%= f.submit "Add Task", class: 'btn btn-warning' %>
+    </span>
 <% end %>

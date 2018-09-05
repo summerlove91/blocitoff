@@ -17,6 +17,32 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
-.container {
-  color: coral;
+.navbar-title, .navbar-image {
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+}
+
+.navbar-title:hover{
+  text-decoration: none;
+}
+
+.navbar-link:hover{
+  text-decoration: none;
+}
+
+.navbar-link{
+  padding-right: 18px;
+  z-index: 10;
+}
+
+.navbar-link-login{
+  color: white;
+  font-weight:bold;
+  font-size:18px;
+  text-shadow: 0.5px 0.5px 1px gray;
+}
+
+.user-options{
+  z-index: 11;
 }

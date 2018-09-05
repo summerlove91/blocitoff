@@ -3,11 +3,34 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.all-todos {
+.task-list-box {
   color: black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .time-left {
   color: black;
-  font-family: 'Architects Daughter', cursive;
+}
+
+.input-field{
+  width: 20%;
+}
+
+.time-left{
+  display: inline-block;
+  float:right;
+}
+
+.media-heading{
+  display: inline-block;
+}
+
+.task-creation-date{
+  float: right;
+  margin-left: 20px;
+}
+
+.media-body{
+  border-bottom: 1px solid lightgray;
 }
